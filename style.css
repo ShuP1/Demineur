@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+}
+
+#reset {
+    height: 2em;
+    width: auto;
+}
+
+#cases {
+    border-collapse: collapse;
+    margin: auto;
+}
+#cases td {
+    background-color: #ddd; 
+    border: 1px solid black;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+#cases form, #cases input {
+    width: 100%;
+    height: 100%;
+}
+#cases input {
+    border: 4px outset grey;
+    box-sizing: border-box;
+}
